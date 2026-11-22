@@ -83,6 +83,75 @@
       ],
       "ast": [
         "aggregate/ast/dc22fdefd5456a0f4d2f190c6d3e017e3c7ddd8e/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/dc22fdefd5456a0f4d2f190c6d3e017e3c7ddd8e.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "derive_arbitrary",
+          "ecosystem": "CARGO",
+          "version": "~1.4.0",
+          "githubOrg": "rust-fuzz",
+          "githubRepo": "arbitrary",
+          "githubUrl": "https://github.com/rust-fuzz/arbitrary",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "exhaustigen",
+          "ecosystem": "CARGO",
+          "version": "0.1.0",
+          "githubOrg": "graydon",
+          "githubRepo": "exhaustigen-rs",
+          "githubUrl": "https://github.com/graydon/exhaustigen-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "proc-macro2",
+          "ecosystem": "CARGO",
+          "version": "1.0.107",
+          "githubOrg": "dtolnay",
+          "githubRepo": "proc-macro2",
+          "githubCommit": "ed8a5497669cd63db33bf24646f261b012bbbc4a",
+          "githubTag": "1.0.107",
+          "githubUrl": "https://github.com/dtolnay/proc-macro2",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.107/src/lib.rs"
+        },
+        {
+          "packageName": "syn",
+          "ecosystem": "CARGO",
+          "version": "2.0.119",
+          "githubOrg": "dtolnay",
+          "githubRepo": "syn",
+          "githubCommit": "3295f9e9841785ac88a5e558c884854d5fb7d67f",
+          "githubTag": "2.0.119",
+          "githubUrl": "https://github.com/dtolnay/syn",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/syn-2.0.119/src/punctuated.rs"
+        },
+        {
+          "packageName": "quote",
+          "ecosystem": "CARGO",
+          "version": "1.0.47",
+          "githubOrg": "dtolnay",
+          "githubRepo": "quote",
+          "githubCommit": "723dcb47d3f0ddc896e17287c8a8d3f2ea2317d5",
+          "githubTag": "1.0.47",
+          "githubUrl": "https://github.com/dtolnay/quote",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.47/src/lib.rs"
+        },
+        {
+          "packageName": "libfuzzer-sys",
+          "ecosystem": "CARGO",
+          "version": "0.4.13",
+          "githubOrg": "rust-fuzz",
+          "githubRepo": "libfuzzer",
+          "githubCommit": "719e4efb9b8857ebaa782ae59376c8cbb78fed0f",
+          "githubTag": "0.4.13",
+          "githubUrl": "https://github.com/rust-fuzz/libfuzzer",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libfuzzer-sys-0.4.13/src/lib.rs"
+        }
       ]
     }
   ],
