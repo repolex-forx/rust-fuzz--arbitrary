@@ -152,7 +152,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libfuzzer-sys-0.4.13/src/lib.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/dc22fdefd5456a0f4d2f190c6d3e017e3c7ddd8e/chunk-001.nq.gz",
+      "dep": "dep/dc22fdefd5456a0f4d2f190c6d3e017e3c7ddd8e.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
